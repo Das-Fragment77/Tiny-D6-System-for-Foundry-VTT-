@@ -1,26 +1,26 @@
 {
   "tinyd6": {
-    "TinyD6HeroSheet": "Character",
-    "TinyD6NpcSheet": "NPC",
+    "TinyD6HeroSheet": "Charakter",
+    "TinyD6NpcSheet": "NSC",
     "system": {
       "name": "Tiny D6 2e",
-      "dieRoller": "Die Roller"
+      "dieRoller": "Würfelbecher"
     },
     "settings": {
       "title": "Systemeinstellungen",
       "label": "Systemeinstellungen",
-      "description": "Wähle die optionalen Regeln aus den Optionen aus, die Du aktivieren möchtest.",
+      "description": "Wähle die optionalen Regeln aus, die Du aktivieren möchtest.",
       "theme": {
-        "name": "Theme",
-        "hint": "Auswahl des Themes, um Deine Welt für ein bestimmtes Tiny D6-Spiel anzupassen.",
+        "name": "Thema",
+        "hint": "Auswahl des Themas, um Deine Welt für ein bestimmtes Tiny D6-Spiel anzupassen.",
         "choices": {
           "cthulhu": "Tiny Cthulhu",
           "dungeon": "Tiny Dungeon 2e"
         }
       },
       "enableCorruption": {
-        "name": "Korruptionsleiste aktivieren",
-        "hint": "Fügt auf dem Charakterbogen eine  Leiste für Korruption hinzu."
+        "name": "Verderbheitsleiste aktivieren",
+        "hint": "Fügt auf dem Charakterbogen eine Leiste für Verderbheit hinzu."
       },
       "enableAdvancement": {
         "name": "Charakterentwicklung",
@@ -36,16 +36,16 @@
         "hint": "Fügt auf dem Charakterbogen Inventarfelder für Ausrüstung hinzu."
       },
       "enableDepletionPoints": {
-        "name": "Verschleißpunkte",
+        "name": "Abnutzung",
         "hint": "Notiert die Verschleißpunkte von Ausrüstung auf dem Charakterbogen."
       },
       "enableCriticalHits": {
-        "name": "Enable Critical Hits",
-        "hint": "Mark Test as 'Critical Success' when all dice ore 5 or 6."
+        "name": "Kritische Treffer aktivieren",
+        "hint": "Markiere den Test als „Kritischen Erfolg“, wenn alle Würfel 5 oder 6 anzeigen."
       },
       "enableVariableWeaponDamage": {
-        "name": "Variable Weapon Damage",
-        "hint": "Calculate variable weapon damage for attack tests."
+        "name": "Variabler Waffenschaden",
+        "hint": "Berechnet variablen Waffenschaden für Angriffsproben."
       },
       "enableDamageReduction": {
         "name": "Schadensminderung",
@@ -70,7 +70,7 @@
     },
     "actor": {
       "name": "Name",
-      "npc": "NPC",
+      "npc": "NSC",
       "people": "Volk",
       "traits": "Merkmale",
       "description": "Beschreibung",
@@ -83,7 +83,7 @@
         }
       },
       "tiny-dungeon": {
-        "character": "Character",
+        "character": "CharaKter",
         "heritage": {
           "header": "Vermächtnis",
           "traits": "Merkmale des Vermächtnis",
@@ -111,15 +111,15 @@
         "help": "Markiere ein Kästchen, wenn du Schaden erleidest. Entferne das Häkchen, wenn Du geheilt wirst."
       },
       "corruption": {
-        "test": "Korruptionsprobe",
-        "header": "Korruption",
+        "test": "Verderbtheitsprobe",
+        "header": "Verderbtheid",
         "current": "Aktuell",
         "max": "Max:",
-        "increaseMax": "Schwellenwert für Korruption erhöhen",
-        "help": "Markiere ein Kästchen, wenn Du Korruption erhältst. Entferne das Häkchen, wenn Du Dich erholst wirst."
+        "increaseMax": "Schwellenwert für Verderbtheid erhöhen",
+        "help": "Markiere ein Kästchen, wenn Du verdorben wirst. Entferne das Häkchen, wenn Du kuriert wirst."
       },
       "proficiencies": {
-        "header": "Qualification",
+        "header": "Qualifikation",
         "mastered": "Gemeistert"
       },
       "gear": "Inventar",
@@ -176,7 +176,7 @@
       "headline": "Ausgestattete Gegenstände",
       "name": "Name",
       "type": "Rüstungsart",
-      "damageReduction": "SM",
+      "damageReduction": "SR",
       "slots": "Ausrüstungsslots",
       "depletion": "Verschleißpunkte",
       "description": "Beschreibung",
@@ -192,7 +192,7 @@
     "heritage": {
       "trait": "Vermächtnismerkmal",
       "startingHealth": "Anfangs Trefferpunkte",
-      "corruptionThreshold": "Korruptionsschwelle"
+      "corruptionThreshold": "Verderbtheitsschwelle"
     },
     "trait": {
       "name": "Name",
